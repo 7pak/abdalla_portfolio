@@ -79,7 +79,7 @@ const HeroContent = () => {
           <motion.a
             initial="hidden"
             animate="visible"
-            href="/abdalla_resume_cross.pdf"
+            href="/abdalla_portfolio_resume.pdf"
             download
             target="_blank"
             variants={slideInFromLeft(0.8)}

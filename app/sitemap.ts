@@ -2,7 +2,7 @@ import { Blogs } from "@/constants/blogs";
 import { url } from "inspector";
 
 export default async function sitemap() {
-  const baseUrl = "https://jubyte.vercel.app";
+  const baseUrl = "https://abdalla-tawfig.vercel.app";
   const blogUrls = Blogs.map((blog) => ({
     url: `${baseUrl}/blogs/${blog.id}`,
     lastModified: new Date(),

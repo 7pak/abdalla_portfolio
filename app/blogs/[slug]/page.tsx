@@ -34,7 +34,7 @@ const BlogPost = () => {
 
   useEffect(() => {
     if (blog) {
-      document.title = `${blog.title} | جوبايت سوفتوير`;
+      document.title = `${blog.title} | Abdalla`;
       const metaDescription = document.querySelector('meta[name="description"]');
       if (metaDescription) {
         metaDescription.setAttribute("content", blog.description);
@@ -56,7 +56,7 @@ const BlogPost = () => {
   return (
     <div className="container mx-auto p-4 flex flex-col items-center pt-20 z-20">
       <Head>
-        <title>{`${blog.title} | جوبايت سوفتوير`}</title>
+        <title>{`${blog.title} |  Abdalla`}</title>
         <meta name="description" content={blog.description} />
         <link rel="canonical" href={canonicalUrl} />
       </Head>

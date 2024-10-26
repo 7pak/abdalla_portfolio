@@ -23,12 +23,11 @@ const Footer = () => {
                         <h3 className="font-bold text-lg">Contact Me</h3>
                         <a href="mailto:abdella.tawfig@gmail.com">abdella.tawfig@gmail.com</a>
                         <div className="flex gap-4 text-2xl">
-                            <a href="https://github.com/your-profile" className="hover:text-gray-400"><RxGithubLogo /></a>
-                            <a href="https://instagram.com/your-profile" className="hover:text-pink-500"><RxInstagramLogo /></a>
-                            <a href="https://twitter.com/your-profile" className="hover:text-blue-400"><RxTwitterLogo /></a>
-                            <a href="https://youtube.com/your-channel" className="hover:text-red-500"><FaYoutube /></a>
-                            <a href="https://discord.com/invite/your-invite" className="hover:text-purple-500"><RxDiscordLogo /></a>
-                            <a href="https://discord.com/invite/your-invite" className="hover:text-emerald-400"><FaWhatsapp /></a>
+                            <a href="https://github.com/7pak/" className="hover:text-gray-400" target="_blank"><RxGithubLogo /></a>
+                            <a href="https://www.linkedin.com/in/abdella-tawfig/" className="hover:text-blue-400" target="_blank"><RxLinkedinLogo /></a>
+                            <a href="https://wa.me/+905510896444/" className="hover:text-emerald-400" target="_blank"><FaWhatsapp /></a>
+                            <a href="https://www.instagram.com/7pak/" className="hover:text-pink-500" target="_blank"><RxInstagramLogo /></a>
+
                         </div>
                     </div>
                 </div>

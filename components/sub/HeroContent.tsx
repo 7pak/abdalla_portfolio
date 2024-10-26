@@ -79,7 +79,9 @@ const HeroContent = () => {
           <motion.a
             initial="hidden"
             animate="visible"
-            href="/#footer"
+            href="/abdalla_resume_cross.pdf"
+            download
+            target="_blank"
             variants={slideInFromLeft(0.8)}
             className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-[5px] max-w-[200px] transition"
           >

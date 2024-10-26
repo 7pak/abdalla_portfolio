@@ -34,7 +34,7 @@ export const Projects = [
     title: "Swift",
     image: ["/swift_present.png"],
     description:
-      "Swift is a sleek eCommerce app designed for fast and seamless shopping, built to enhance the experience of browsing and purchasing clothes. Developed with a focus on smooth performance and clean architecture, it simplifies the shopping process with dynamic price updates and efficient product management.",
+      "Swift is a sleek eCommerce app designed for fast and seamless shopping, built to enhance the experience of browsing and purchasing clothes. Developed with a focus on smooth performance and clean architecture, it simplifies the shopping process with dynamic price updates and efficient product management",
     icons: [
       "/dart_programming.png",
       "/flutter.png",

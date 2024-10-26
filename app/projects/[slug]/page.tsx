@@ -25,6 +25,8 @@ const BlogPost = () => {
     setSlug(slugFromUrl);
   }, []);
 
+
+
   useEffect(() => {
     if (slug) {
       const foundBlog: any = Blogs.find((blog) => blog.id.toString() === slug)

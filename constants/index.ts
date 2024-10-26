@@ -41,7 +41,7 @@ export const Projects = [
       "/next.png",
 
     ],
-    link: "/blogs/1",
+    link: "/projects/swift",
   },
   {
     id: 1,
@@ -54,7 +54,7 @@ export const Projects = [
       "/flutter.png",
       "/html.png",
     ],
-    link: "/blogs/2",
+    link: "/projects/tyksee",
   },
   {
     id: 2,

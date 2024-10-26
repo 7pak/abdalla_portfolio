@@ -1,6 +1,6 @@
 export const Blogs = [
   {
-    id: 1,
+    id: "swift",
     title: "Swift",
     image: ["/projects/swift/swift_1-portrait.png", "/projects/swift/swift_2-portrait.png", "/projects/swift/swift_3-portrait.png", "/projects/swift/swift_4-portrait.png", "/projects/swift/swift_5-portrait.png", "/projects/swift/swift_6-portrait.png"],
     description:
@@ -26,7 +26,7 @@ export const Blogs = [
     `,
   },
   {
-    id: 2,
+    id: "tyksee",
     title: "Tyksee",
     image: ["/projects/tyksee/tyksee_1-portrait.png", "/projects/tyksee/tyksee_2-portrait.png", "/projects/tyksee/tyksee_3-portrait.png", "/projects/tyksee/tyksee_4-portrait.png",],
     description:

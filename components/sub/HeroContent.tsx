@@ -34,14 +34,14 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.2)}
           className="flex flex-col gap-6 mt-6 text-6xl max-md:text-[56px] max-sm:text-[32px] font-bold text-white max-w-[600px] max-md:max-w-full max-md:w-full w-auto h-auto"
         >
-          <span className="leading-[80px] max-sm:leading-[50px] max-md:text-center">
+          <span className="leading-[60px] max-sm:leading-[50px] max-md:text-center">
             I am{" "}
             <TypeAnimation
-              className="text-transparent text-[60px] max-md:text-[48px] max-sm:text-[32px] font-bold bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"
+              className="text-transparent text-[55px] max-md:text-[48px] max-sm:text-[32px] font-bold bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"
               sequence={[
                 "Abdalla Tawfig",
                 3000,
-                "Mobile Developer",
+                "A Mobile Developer",
                 2000,
               ]}
               wrapper="span"

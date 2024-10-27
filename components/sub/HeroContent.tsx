@@ -26,7 +26,7 @@ const HeroContent = () => {
           className="max-md:hidden welcome-box py-[8px] px-[10px] border border-[#7042f88b] opacity-90"
         >
           <CubeIcon className="text-[#b49bff] mx-[10px] h-5 w-5" />
-          <h1 className="welcome-text text-[13px]">I AM THE BEST</h1>
+          <h1 className="welcome-text text-[13px]">NICE TO DEBUG YOU</h1>
         </motion.div>
         <motion.div
           initial="hidden"

@@ -59,10 +59,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="text-lg text-gray-400 my-5 max-w-[600px] max-md:text-center"
         >
-          Software Engineering student at Üsküdar University with experience in
-          Kotlin, Native Android, and Flutter. I focus on creating high-quality,
-          user-friendly mobile apps and enjoy working in collaborative
-          environments to deliver innovative solutions.
+          Software Engineer skilled in native Android development with Kotlin and cross-platform solutions using Flutter. Dedicated to creating high-quality, user-friendly mobile applications, with a strong focus on collaboration and delivering innovative solutions that enhance user experiences.
         </motion.p>
         <div className="flex flex-col gap-4">
           <motion.a

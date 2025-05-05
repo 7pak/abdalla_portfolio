@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "set PORT=3001 && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -23,7 +23,7 @@
     "clsx": "^2.1.1",
     "embla-carousel-react": "^8.1.6",
     "lucide-react": "^0.407.0",
-    "next": "14.2.4",
+    "next": "^14.2.4",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",

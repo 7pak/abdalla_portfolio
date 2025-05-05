@@ -90,6 +90,7 @@ const HeroContent = () => {
 
         </div>
       </div>
+
       <motion.div
         initial="hidden"
         animate="visible"
@@ -97,11 +98,12 @@ const HeroContent = () => {
         className="w-full h-full flex flex-center justify-center items-center"
       >
         <img
-          src="/IMG_20241024_185247_524.jpg"
+          src="/pro-pic~3.jpeg"
           className=" rounded-[100000000px] w-[250px] md:w-[550px] opacity-85"
           alt="icons"
         />
       </motion.div>
+
     </motion.div>
   );
 };

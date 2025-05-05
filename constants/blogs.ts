@@ -10,6 +10,7 @@ export const Blogs = [
     <p>Swift is a sleek eCommerce app designed for fast and seamless shopping, built to enhance the experience of browsing and purchasing clothes. Developed with a focus on smooth performance and clean architecture, it simplifies the shopping process with dynamic price updates and efficient product management.</p>
     
     <h1>Technologies Used</h1>
+    
     <ul>
     <li><strong>Flutter</strong>: Framework for cross-platform app development</li>
     <li><strong>BLoC</strong>: State management for organized code structure</li>
@@ -26,25 +27,26 @@ export const Blogs = [
     `,
   },
   {
-    id: "tyksee",
-    title: "Tyksee",
+    id: "b2b_marketer",
+    title: "B2B Marketer",
     image: ["/projects/tyksee/tyksee_1-portrait.png", "/projects/tyksee/tyksee_2-portrait.png", "/projects/tyksee/tyksee_3-portrait.png", "/projects/tyksee/tyksee_4-portrait.png",],
+    video: "/projects/tyksee/ahhhaaa.mp4",
     description:
-      "Tyksee is an eCommerce app crafted for a refined eyewear shopping experience. It combines dynamic lens selection and precise customization options, ensuring users can easily find the perfect pair of glasses. Built with attention to performance and clarity, it simplifies the journey from browsing to buying.",
+      "A B2B e-commerce platform connecting Turkish manufacturers with global buyers, particularly in Arab markets. It offers a wide range of products across industries like textiles, electronics, food, and machinery, facilitating seamless trade and boosting Turkey's exports.",
     content: `
     <h1>App Brief</h1>
-    <p>Tyksee is an eCommerce app crafted for a refined eyewear shopping experience. It combines dynamic lens selection and precise customization options, ensuring users can easily find the perfect pair of glasses. Built with attention to performance and clarity, it simplifies the journey from browsing to buying.</p>
+    <p>A B2B e-commerce platform connecting Turkish manufacturers with global buyers, particularly in Arab markets. It offers a wide range of products across industries like textiles, electronics, food, and machinery, facilitating seamless trade and boosting Turkey's exports.</p>
     
     <h1>Technologies Used</h1>
     <ul>
     <li><strong>Flutter</strong>: Framework for cross-platform app development</li>
-    <li><strong>GetX</strong>: State management and navigation</li>
+    <li><strong>Bloc</strong>: State management</li>
     <li><strong>Dio</strong>: HTTP client for API communication</li>
     <li><strong>MVVM</strong>: Architectural pattern to separate logic and UI</li>
     <li><strong>SharedPreferences</strong>: Local storage for user preferences</li>
     <li><strong>WebView</strong>: For in-app browser functionality</li>
-    <li><strong>Stripe</strong>: Payment gateway integration</li>
-    <li><strong>WooCommerce API</strong>: Backend integration for product management and eCommerce features</li>
+    <li><strong>Iyzico</strong>: Payment gateway Redirection</li>
+    <li><strong>Rest Api</strong>: Backend integration for product management and features</li>
   </ul>
   
     

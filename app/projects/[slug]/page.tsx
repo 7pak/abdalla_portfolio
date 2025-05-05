@@ -10,6 +10,7 @@ type Blog = {
   id: number;
   title: string;
   image: string[];
+  video: string | undefined;
   description: string;
   content: string;
 };
@@ -66,14 +67,25 @@ const BlogPost = () => {
         {blog.title}
       </h1>
       <div className="w-full min-h-96 mt-5 overflow-hidden rounded-[10px] z-20 flex gap-4 justify-center items-center flex-wrap">
-        {blog.image.map((src, index) => (
-          <img
-            key={index}
-            src={src}
-            alt={`${blog.title} image ${index + 1}`}
-            className="h-96 object-cover z-20 mb-2"
-          />
-        ))}
+
+        {blog.video ? (
+          <video width="320" height="240" autoPlay>
+            <source src={blog.video} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        ) : (
+          <>
+            {blog.image.map((src, index) => (
+              <img
+                key={index}
+                src={src}
+                alt={`${blog.title} image ${index + 1}`}
+                className="h-96 object-cover z-20 mb-2"
+              />
+            ))}
+          </>
+        )}
+
       </div>
 
       <div

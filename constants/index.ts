@@ -45,16 +45,18 @@ export const Projects = [
   },
   {
     id: 1,
-    title: "Tyksee",
-    image: ["/tyksee_present.png"],
+    title: "B2B Marketer",
+    image: ["/b2b_preview.jpg"],
+    video: "/ahhhaaa.mp4",
     description:
-      "Tyksee is an eCommerce app crafted for a refined eyewear shopping experience. It combines dynamic lens selection and precise customization options, ensuring users can easily find the perfect pair of glasses. Built with attention to performance and clarity, it simplifies the journey from browsing to buying",
+      "A B2B e-commerce platform connecting Turkish manufacturers with global buyers, particularly in Arab markets. It offers a wide range of products across industries like textiles, electronics, food, and machinery, facilitating seamless trade and boosting Turkey's exports.",
     icons: [
       "/dart_programming.png",
+
       "/flutter.png",
       "/html.png",
     ],
-    link: "/projects/tyksee",
+    link: "/projects/b2b_marketer",
   },
   {
     id: 2,

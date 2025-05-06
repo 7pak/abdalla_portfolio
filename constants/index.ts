@@ -30,20 +30,6 @@ export const Socials = [
 
 export const Projects = [
   {
-    id: 0,
-    title: "Swift",
-    image: ["/swift_present.png"],
-    description:
-      "Swift is a sleek eCommerce app designed for fast and seamless shopping, built to enhance the experience of browsing and purchasing clothes. Developed with a focus on smooth performance and clean architecture, it simplifies the shopping process with dynamic price updates and efficient product management",
-    icons: [
-      "/dart_programming.png",
-      "/flutter.png",
-      "/next.png",
-
-    ],
-    link: "/projects/swift",
-  },
-  {
     id: 1,
     title: "B2B Marketer",
     image: ["/b2b_preview.jpg"],
@@ -57,6 +43,20 @@ export const Projects = [
       "/html.png",
     ],
     link: "/projects/b2b_marketer",
+  },
+  {
+    id: 0,
+    title: "Swift",
+    image: ["/swift_present.png"],
+    description:
+      "Swift is a sleek eCommerce app designed for fast and seamless shopping, built to enhance the experience of browsing and purchasing clothes. Developed with a focus on smooth performance and clean architecture, it simplifies the shopping process with dynamic price updates and efficient product management",
+    icons: [
+      "/dart_programming.png",
+      "/flutter.png",
+      "/next.png",
+
+    ],
+    link: "/projects/swift",
   },
   {
     id: 2,
@@ -133,6 +133,7 @@ export const Frontend_skill = [
   {
     skill_name: "Tailwind Css",
     Image: "/tailwind.png",
+
     width: 80,
     height: 80,
   },

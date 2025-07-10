@@ -44,6 +44,21 @@ export const Projects = [
     ],
     link: "/projects/b2b_marketer",
   },
+
+  {
+    id: 2,
+    title: "Autoinvo",
+    image: ["/auto_invo_graph.png"],
+    description:
+      "Autoinvo - Intelligent AI-Powered Receipt Scanner & Comprehensive Expense Management Solution. Effortlessly scan receipts, automatically detect and assign categories with AI, organize expenses seamlessly, and analyze spending patterns with advanced OCR technology and real-time cloud synchronization.",
+    icons: [
+      "/dart_programming.png",
+      "/flutter.png",
+      "/Firebase.png"
+    ],
+    link: "/projects/autoinvo",
+  },
+
   {
     id: 0,
     title: "Swift",
@@ -57,19 +72,6 @@ export const Projects = [
 
     ],
     link: "/projects/swift",
-  },
-  {
-    id: 2,
-    title: "Autoinvo",
-    image: ["/auto_invo_graph.png"],
-    description:
-      "Autoinvo - Intelligent AI-Powered Receipt Scanner & Comprehensive Expense Management Solution. Effortlessly scan receipts, automatically detect and assign categories with AI, organize expenses seamlessly, and analyze spending patterns with advanced OCR technology and real-time cloud synchronization.",
-    icons: [
-      "/dart_programming.png",
-      "/flutter.png",
-      "/Firebase.png"
-    ],
-    link: "/projects/autoinvo",
   },
   {
     id: 3,
@@ -133,7 +135,7 @@ export const Frontend_skill = [
   {
     skill_name: "Tailwind Css",
     Image: "/tailwind.png",
-    
+
     width: 80,
     height: 80,
   },

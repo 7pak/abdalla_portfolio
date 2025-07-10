@@ -1,31 +1,5 @@
 export const Blogs = [
-  {
-    id: "swift",
-    title: "Swift",
-    image: ["/projects/swift/swift_1-portrait.png", "/projects/swift/swift_2-portrait.png", "/projects/swift/swift_3-portrait.png", "/projects/swift/swift_4-portrait.png", "/projects/swift/swift_5-portrait.png", "/projects/swift/swift_6-portrait.png"],
-    description:
-      "Swift is a sleek eCommerce app designed for fast and seamless shopping, built to enhance the experience of browsing and purchasing clothes. Developed with a focus on smooth performance and clean architecture, it simplifies the shopping process with dynamic price updates and efficient product management.",
-    content: `
-    <h1>App Brief</h1>
-    <p>Swift is a sleek eCommerce app designed for fast and seamless shopping, built to enhance the experience of browsing and purchasing clothes. Developed with a focus on smooth performance and clean architecture, it simplifies the shopping process with dynamic price updates and efficient product management.</p>
-    
-    <h1>Technologies Used</h1>
-    
-    <ul>
-    <li><strong>Flutter</strong>: Framework for cross-platform app development</li>
-    <li><strong>BLoC</strong>: State management for organized code structure</li>
-    <li><strong>GetIt</strong>: Dependency injection for scalable architecture</li>
-    <li><strong>Dio</strong>: HTTP client for API communication</li>
-    <li><strong>MVVM</strong>: Architectural pattern to separate logic and UI</li>
-    <li><strong>SharedPreferences</strong>: Local storage for user settings</li>
-    <li><strong>Next.js</strong>: Backend framework for server-side rendering and API handling</li>
-  </ul>
-  
-    
-    <h1>Installation</h1>
-    <p>The installation link for the demo app can be accessed from <a href="https://www.mediafire.com/file/efm7zno57k3nkev/demo+e-ticaret.apk/file" target="_blank" style="color: #add8e6;">here</a></p>
-    `,
-  },
+
   {
     id: "b2b_marketer",
     title: "B2B Marketer",
@@ -55,6 +29,70 @@ export const Blogs = [
     <p>The installation link for this app is restricted from sharing in accordance with company policies.</p>
   `,
   },
+
+  {
+    id: "autoinvo",
+
+    title: "Autoinvo",
+    image: [
+      "/projects/autoinvo/autoinvo_1.png",
+      "/projects/autoinvo/autoinvo_2.png",
+      "/projects/autoinvo/autoinvo_3.png",
+      "/projects/autoinvo/autoinvo_4.png",
+      "/projects/autoinvo/autoinvo_5.png",
+      "/projects/autoinvo/autoinvo_6.png"
+    ],
+    description:
+      "Autoinvo is a modern and powerful invoice management app that lets users scan, organize, and export receipts with ease. Built with Flutter and backed by Firebase, it supports offline access, smart filtering, and secure PDF export to simplify financial tracking.",
+    content: `
+    <h1>App Brief</h1>
+    <p>Autoinvo is a smart receipt management and invoicing app built for simplicity, speed, and reliability. Users can scan receipts using the camera or upload from their gallery, then filter and export them as PDFs. With full offline functionality and automatic syncing when online, Autoinvo is perfect for users who need to track expenses on the go.</p>
+
+    <h1>Technologies Used</h1>
+    <ul>
+      <li><strong>Flutter</strong>: Cross-platform UI toolkit for smooth, native-like experience</li>
+      <li><strong>Firebase Authentication</strong>: Secure login system</li>
+      <li><strong>Cloud Firestore</strong>: Realtime NoSQL database for storing user data</li>
+      <li><strong>Firebase Storage</strong>: Efficient media handling for uploaded receipts</li>
+      <li><strong>Firebase Crashlytics</strong>: Real-time crash monitoring</li>
+      <li><strong>Firebase Analytics</strong>: Event tracking and usage insights</li>
+      <li><strong>camera / image_picker</strong>: To scan or upload receipts from device</li>
+      <li><strong>PDF</strong>: Receipt export functionality</li>
+      <li><strong>Bloc</strong>: State management for scalable code structure</li>
+    </ul>
+
+    <h1>Installation</h1>
+    <p>The demo version of Autoinvo is available for download <a href="https://www.mediafire.com/file/efm7zno57k3nkev/demo+e-ticaret.apk/file" target="_blank" style="color: #add8e6;">here</a>.</p>
+  `,
+  },
+
+  {
+    id: "swift",
+    title: "Swift",
+    image: ["/projects/swift/swift_1-portrait.png", "/projects/swift/swift_2-portrait.png", "/projects/swift/swift_3-portrait.png", "/projects/swift/swift_4-portrait.png", "/projects/swift/swift_5-portrait.png", "/projects/swift/swift_6-portrait.png"],
+    description:
+      "Swift is a sleek eCommerce app designed for fast and seamless shopping, built to enhance the experience of browsing and purchasing clothes. Developed with a focus on smooth performance and clean architecture, it simplifies the shopping process with dynamic price updates and efficient product management.",
+    content: `
+    <h1>App Brief</h1>
+    <p>Swift is a sleek eCommerce app designed for fast and seamless shopping, built to enhance the experience of browsing and purchasing clothes. Developed with a focus on smooth performance and clean architecture, it simplifies the shopping process with dynamic price updates and efficient product management.</p>
+    
+    <h1>Technologies Used</h1>
+    <ul>
+    <li><strong>Flutter</strong>: Framework for cross-platform app development</li>
+    <li><strong>BLoC</strong>: State management for organized code structure</li>
+    <li><strong>GetIt</strong>: Dependency injection for scalable architecture</li>
+    <li><strong>Dio</strong>: HTTP client for API communication</li>
+    <li><strong>MVVM</strong>: Architectural pattern to separate logic and UI</li>
+    <li><strong>SharedPreferences</strong>: Local storage for user settings</li>
+    <li><strong>Next.js</strong>: Backend framework for server-side rendering and API handling</li>
+  </ul>
+  
+    
+    <h1>Installation</h1>
+    <p>The installation link for the demo app can be accessed from <a href="https://www.mediafire.com/file/efm7zno57k3nkev/demo+e-ticaret.apk/file" target="_blank" style="color: #add8e6;">here</a></p>
+    `,
+  }
+  ,
   {
     id: 3,
     title: "أهمية الحوسبة السحابية في تطوير البرمجيات في مصر",

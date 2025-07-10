@@ -90,7 +90,6 @@ const HeroContent = () => {
 
         </div>
       </div>
-
       <motion.div
         initial="hidden"
         animate="visible"

@@ -60,16 +60,16 @@ export const Projects = [
   },
   {
     id: 2,
-    title: "Wallet-Wiz",
-    image: ["/wallet_present.png"],
+    title: "Autoinvo",
+    image: ["/auto_invo_graph.png"],
     description:
-      "Wallet-Wiz a sleek and stylish tool for managing your finances. With a clean, intuitive design, it offers a seamless and visually appealing experience, making it easy to track your spending and stay on top of your budget.",
+      "Autoinvo - Intelligent AI-Powered Receipt Scanner & Comprehensive Expense Management Solution. Effortlessly scan receipts, automatically detect and assign categories with AI, organize expenses seamlessly, and analyze spending patterns with advanced OCR technology and real-time cloud synchronization.",
     icons: [
       "/dart_programming.png",
       "/flutter.png",
       "/Firebase.png"
     ],
-    link: "https://github.com/7pak/Wallet-Wiz",
+    link: "/projects/autoinvo",
   },
   {
     id: 3,
@@ -133,7 +133,7 @@ export const Frontend_skill = [
   {
     skill_name: "Tailwind Css",
     Image: "/tailwind.png",
-
+    
     width: 80,
     height: 80,
   },

@@ -62,7 +62,7 @@ export const Blogs = [
     </ul>
 
     <h1>Installation</h1>
-    <p>Autoinvo is available for download <a href="https://www.mediafire.com/file/efm7zno57k3nkev/demo+e-ticaret.apk/file" target="_blank" style="color: #add8e6;">here</a>.</p>
+    <p>Autoinvo is available for download on google play <a href="https://play.google.com/store/apps/details?id=com.at.autoinvo.auto_invo" target="_blank" style="color: #add8e6;">here</a>.</p>
   `,
   },
 

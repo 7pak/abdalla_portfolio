@@ -97,7 +97,7 @@ const HeroContent = () => {
         className="w-full h-full flex flex-center justify-center items-center"
       >
         <img
-          src="/pro-pic~3.jpeg"
+          src="professional.png"
           className=" rounded-[100000000px] w-[250px] md:w-[550px] opacity-85"
           alt="icons"
         />
